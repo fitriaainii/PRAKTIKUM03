@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+</head>
+<header>
+<nav>
+    <table border="1" align="center" width="1280" style="background-color: grey">
+        <tr>
+            <th> 
+                <b align="center">A Web Page</b><br>
+                <img src="1665702955160.png" alt="" width="25" align="left" >&nbsp;
+                <img src="1665702896004.png" alt="" width="25" align="left">&nbsp;
+                <img src="exit.png" alt="" width="25" align="left">&nbsp;
+                <img src="home.png" alt="" width="25" align="left">&nbsp;
+                <img src="seach.png" alt="" width="30" align="right">
+            </th>
+        </tr>
+    </table>
+</header>
+
+<body>
+    <nav>
+    <form>
+        <fieldset align="left">
+            <p href="#" align="center"> Home | General Link | Transaction History | Policy | Logout</p>
+            <br>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="Tittle Here">Tittle Here  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  :</label></td>
+                <td> <input type="text" id="Tittle Here"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="Description">Description &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</label></td>
+                <td> <textarea type="text" id="description" >Year : 2022 
+                                                             Model : 
+                                                             Condition : New</textarea></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="account number">Account Number &nbsp; &nbsp; &nbsp; &nbsp; :</label></td>
+                <td> <input type="number" id="telphone"></td>
+            </tr> 
+            <br>
+            <br>
+            <tr>
+                <td> <label for="bank">Bank &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; :</label></td>
+                <td> <select id="bank">
+                    <option value="mandiri">Mandiri</option>
+                    <option value="bca">BCA</option>
+                    <option value="bri">BRI</option>
+                    <option value="visa">VISA</option>
+                </select></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td><label for="account holder">Account Holder &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; :</label></td>
+                <td><input type="text" id="account holder"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="transaction">Transaction &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : </label></td>
+                <td> <input type="number" min="1" max="5" align="center"></td><br>
+                <td><p> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; *if the transaction is for 3 person, choose 3 from the drop down list</p></td>
+                <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox">Send to Mobile Phone</checked></td><br>
+                <td> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox">Send to Email</checked></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="mobile phone">Send to Mobile Phone :</label></td>
+                <td> <input type="number"></td>
+            </tr>
+            <br>
+            <br>
+            <tr>
+                <td> <label for="send to email">Send to Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; :</label></td>
+                <td> <input type="text"></td>
+            </tr>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button align="center" type="submit" style="background-color: green" style="box-shadow: black">Generate Nabr Link</button>
+        </fieldset>
+    </form>
+    </nav>
+</body>
+</html>
